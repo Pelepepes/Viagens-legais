@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -91,3 +92,98 @@
 
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Galinha Viagens</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            background: url('cadastro.png.png') no-repeat center center;
+            background-size: 100% 100%;
+            position: relative;
+        }
+
+        .imagem-cadastro {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        .form-login {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 5;
+        }
+
+        .campo-nome {
+            position: absolute;
+            top: 150px;
+            left: 1070px;
+            width: 314px;
+            height: 65px;
+            background: transparent;
+            border: none;
+            font-size: 18px;
+            padding: 5px;
+            color: #333;
+            outline: none;
+        }
+
+        .campo-senha {
+            position: absolute;
+            top: 290px;
+            left: 1070px;
+            width: 314px;
+            height: 65px;
+            background: transparent;
+            border: none;
+            font-size: 18px;
+            padding: 5px;
+            color: #333;
+            outline: none;
+        }
+
+        .botao-dashboard {
+            position: absolute;
+            top: 396px;
+            left: 937px;
+            width: 305px;
+            height: 27px;
+            z-index: 10;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="cadastro.png.png" alt="Cadastro" class="imagem-cadastro">
+
+    <form class="form-login" action="viagem.html" method="GET">
+        <input type="text" class="campo-nome" name="nome" placeholder="Digite seu nome">
+        <input type="password" class="campo-senha" name="senha" placeholder="Digite sua senha">
+        <button type="submit" style="display: none;"></button>
+    </form>
+
+    <a href="dashboard.html" class="botao-dashboard"></a>
+
+</body>
+</html>
+>>>>>>> 02b67b6adb0fecbf31b9af763db68eb3d8cedd60
