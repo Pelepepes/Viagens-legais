@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Galinha Viagens</title>
+</head>
+<body>
+    <img src="Contato.png.png" alt="Contato" usemap="#contato-map" style="width: 100%; height: 100%;">
+
+    <map name="contato-map">
+        <area target="_self" alt="Copiar e-mail" title="Clique para copiar o e-mail" href="javascript:void(0);" onclick="copiarTexto('contato@galinhaviagens.com')" coords="888,460,1278,485" shape="rect">
+
+        <area target="_self" alt="Copiar telefone" title="Clique para copiar o telefone" href="javascript:void(0);" onclick="copiarTexto('(11) 98765-4321')" coords="894,432,1284,457" shape="rect">
+    </map>
+
+    <script>
+        function copiarTexto(texto) {
+            navigator.clipboard.writeText(texto);
+        }
+    </script>
+</body>
+</html>
